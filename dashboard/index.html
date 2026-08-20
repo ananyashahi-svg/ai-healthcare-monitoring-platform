@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CarePulse AI | Healthcare Monitoring Dashboard</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #1f2937;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 24px 40px;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        header p {
+            margin-top: 6px;
+            color: #cbd5e1;
+        }
+
+        .container {
+            padding: 30px 40px;
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 22px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            font-size: 14px;
+            color: #64748b;
+            margin-bottom: 10px;
+        }
+
+        .metric {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            margin-bottom: 18px;
+        }
+
+        .risk-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 14px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .risk-high {
+            font-weight: bold;
+        }
+
+        .alert {
+            padding: 14px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .alert strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 900px) {
+            .kpi-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .kpi-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>CarePulse AI</h1>
+    <p>AI-Powered Healthcare Monitoring & Risk Detection Platform</p>
+</header>
+
+<div class="container">
+
+    <div class="kpi-grid">
+
+        <div class="card">
+            <h3>Total Monitored Patients</h3>
+            <div class="metric">100</div>
+        </div>
+
+        <div class="card">
+            <h3>High-Risk Patients</h3>
+            <div class="metric">18</div>
+        </div>
+
+        <div class="card">
+            <h3>Open Alerts</h3>
+            <div class="metric">12</div>
+        </div>
+
+        <div class="card">
+            <h3>Alert Resolution Rate</h3>
+            <div class="metric">87%</div>
+        </div>
+
+    </div>
+
+    <div class="dashboard-grid">
+
+        <div class="card">
+            <h2 class="section-title">Patient Risk Distribution</h2>
+
+            <div class="risk-item">
+                <span>High Risk</span>
+                <span class="risk-high">18</span>
+            </div>
+
+            <div class="risk-item">
+                <span>Medium Risk</span>
+                <span>42</span>
+            </div>
+
+            <div class="risk-item">
+                <span>Low Risk</span>
+                <span>40</span>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <h2 class="section-title">Recent Clinical Alerts</h2>
+
+            <div class="alert">
+                <strong>High Risk – Patient P1002</strong>
+                Elevated risk score detected.
+            </div>
+
+            <div class="alert">
+                <strong>Critical Alert – Patient P1005</strong>
+                Abnormal vital measurement detected.
+            </div>
+
+            <div class="alert">
+                <strong>Medium Risk – Patient P1007</strong>
+                Patient requires monitoring.
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
