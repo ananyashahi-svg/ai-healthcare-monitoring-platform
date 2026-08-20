@@ -507,3 +507,225 @@ The user stories should be traceable to:
 **Business Requirement → Product Requirement → User Story → Acceptance Criteria → Test Case → Release**
 
 This ensures that business needs remain connected to the delivered product functionality.
+---
+
+# 12. User Story Traceability Matrix
+
+| Requirement Area | User Stories | Primary Persona | Release |
+|---|---|---|---|
+| Patient Management | US-01, US-02 | Care Manager / Clinician | MVP |
+| Patient Monitoring | US-03, US-04 | Clinician | MVP / Phase 2 |
+| Risk Detection | US-05, US-06 | Clinician | MVP |
+| Alert Management | US-07 to US-12 | Clinician / Care Manager | MVP |
+| Analytics | US-13, US-14 | Healthcare Administrator / Care Manager | MVP / Phase 2 |
+| Security | US-15 | System Administrator | MVP |
+| AI Insights | US-16, US-17 | Clinician | Phase 2 |
+
+---
+
+# 13. Key Edge Cases
+
+## Patient Management
+
+- Duplicate patient identifier
+- Missing mandatory patient information
+- Patient already enrolled
+- Patient becomes inactive
+- Unauthorized user attempts access
+
+## Vital Monitoring
+
+- Missing vital reading
+- Invalid measurement
+- Duplicate measurement
+- Delayed device data
+- Device disconnected
+- Patient has no recent readings
+
+## Risk Detection
+
+- Insufficient data to calculate risk
+- Conflicting measurements
+- Risk score changes significantly
+- Risk calculation fails
+- Risk information becomes stale
+
+## Alert Management
+
+- Duplicate alert
+- Alert generated for inactive patient
+- Alert assigned to unavailable clinician
+- Alert already acknowledged by another user
+- Alert escalation attempted after resolution
+- Alert cannot be resolved without required information
+
+## AI Features
+
+- AI cannot generate a reliable summary
+- Insufficient patient data
+- AI output conflicts with source data
+- AI-generated content requires correction
+- AI service unavailable
+
+---
+
+# 14. Non-Functional Requirements
+
+The MVP should also consider the following non-functional requirements.
+
+### Performance
+
+- Key dashboard pages should load within an acceptable response time.
+- Alert creation should occur within the defined processing SLA.
+- API performance should be monitored.
+
+### Availability
+
+- Critical monitoring and alert workflows should have high availability.
+- System failures should be detected and monitored.
+
+### Security
+
+- Role-based access control must be enforced.
+- Sensitive healthcare information must be protected.
+- User actions must be auditable.
+
+### Scalability
+
+The platform should support increasing:
+
+- Patient volume
+- Vital-sign records
+- Alert volume
+- Healthcare organizations
+- Concurrent users
+
+### Usability
+
+- Clinical workflows should require minimal unnecessary steps.
+- Critical alerts should be visually distinguishable.
+- Error messages should be understandable and actionable.
+
+### Auditability
+
+The system should maintain audit records for important patient and alert workflow actions.
+
+---
+
+# 15. Requirement-to-Test Traceability
+
+Each acceptance criterion should map to one or more test cases.
+
+Example:
+
+| User Story | Acceptance Criterion | Test Type |
+|---|---|---|
+| US-01 | Unique patient ID generated | Functional |
+| US-03 | Latest vital displayed | Functional |
+| US-05 | Risk score calculated | Functional / Data |
+| US-07 | Alert generated | Integration |
+| US-09 | Acknowledgement recorded | Functional |
+| US-11 | Escalation recorded | Functional |
+| US-13 | KPI displayed correctly | Data / UI |
+| US-15 | Unauthorized access blocked | Security |
+| US-17 | AI summary shows source context | AI / Functional |
+
+---
+
+# 16. Business Rules
+
+The following business rules should be validated with clinical and operational stakeholders before implementation.
+
+### BR-01 – High-Risk Classification
+
+A patient may be classified as high risk when configured clinical monitoring rules indicate elevated risk.
+
+### BR-02 – Alert Creation
+
+An alert should only be generated when a configured alert condition is satisfied.
+
+### BR-03 – Alert Prioritization
+
+Alert priority should consider configured clinical and operational factors.
+
+### BR-04 – Alert Escalation
+
+High-priority unresolved alerts may require escalation according to the configured workflow.
+
+### BR-05 – Alert Resolution
+
+An alert should only be marked resolved when the required workflow information has been captured.
+
+### BR-06 – AI Assistance
+
+AI-generated information must remain decision support and must not be treated as an autonomous diagnosis.
+
+---
+
+# 17. Assumptions
+
+This portfolio project uses synthetic data and illustrative business rules.
+
+The following assumptions are made:
+
+- Patient data is synthetic.
+- Clinical thresholds are configurable.
+- Actual clinical thresholds require validation by qualified clinical stakeholders.
+- AI outputs are assistive rather than autonomous.
+- Production deployment would require appropriate security, privacy, compliance, and clinical validation.
+- Integration requirements depend on the healthcare organization's existing systems.
+
+---
+
+# 18. Future User Stories
+
+Potential future stories include:
+
+### US-18 – Natural Language Analytics
+
+**As a Healthcare Administrator,**
+
+I want to ask questions about operational data using natural language,
+
+**so that**
+
+I can obtain insights without manually building complex reports.
+
+### US-19 – Predictive Risk Forecast
+
+**As a Clinician,**
+
+I want to see potential future risk trends,
+
+**so that**
+
+I can review patients who may require closer monitoring.
+
+### US-20 – Population Health View
+
+**As a Healthcare Administrator,**
+
+I want to analyze risk across patient populations,
+
+**so that**
+
+I can identify trends and allocate operational resources effectively.
+
+---
+
+# 19. Product Management Notes
+
+The user stories should evolve as discovery, stakeholder interviews, usability testing, and product analytics generate new evidence.
+
+Priorities should be reviewed based on:
+
+- Patient value
+- Clinical workflow impact
+- Business value
+- Risk
+- Engineering effort
+- Data availability
+- Customer feedback
+- Regulatory and security considerations
+
+The Product Manager / Business Analyst should maintain traceability between requirements, user stories, acceptance criteria, testing, and releases.
