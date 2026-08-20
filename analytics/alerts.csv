@@ -1,0 +1,21 @@
+alert_id,patient_id,alert_type,severity,alert_created_at,alert_acknowledged_at,alert_resolved_at,status,assigned_clinician,escalated,response_time_minutes
+A1001,P1002,Low SpO2,High,2026-08-18 08:15,2026-08-18 08:27,2026-08-18 09:02,Resolved,Dr. Sharma,FALSE,12
+A1002,P1005,High Blood Pressure,Critical,2026-08-18 08:42,2026-08-18 08:48,2026-08-18 09:25,Resolved,Dr. Mehta,TRUE,6
+A1003,P1008,Low SpO2,Critical,2026-08-18 09:10,2026-08-18 09:16,2026-08-18 09:51,Resolved,Dr. Sharma,TRUE,6
+A1004,P1010,High Heart Rate,High,2026-08-18 09:35,2026-08-18 09:49,2026-08-18 10:20,Resolved,Dr. Patel,FALSE,14
+A1005,P1013,High Blood Pressure,High,2026-08-18 10:05,2026-08-18 10:18,2026-08-18 10:46,Resolved,Dr. Mehta,FALSE,13
+A1006,P1016,Low SpO2,Critical,2026-08-18 10:22,2026-08-18 10:29,2026-08-18 11:05,Resolved,Dr. Sharma,TRUE,7
+A1007,P1018,High Heart Rate,High,2026-08-18 10:50,2026-08-18 11:03,2026-08-18 11:39,Resolved,Dr. Patel,FALSE,13
+A1008,P1020,Low SpO2,Critical,2026-08-18 11:15,2026-08-18 11:21,2026-08-18 12:04,Resolved,Dr. Sharma,TRUE,6
+A1009,P1023,High Blood Pressure,High,2026-08-18 11:40,2026-08-18 11:53,2026-08-18 12:20,Resolved,Dr. Mehta,FALSE,13
+A1010,P1025,Low SpO2,High,2026-08-18 12:05,2026-08-18 12:19,2026-08-18 12:52,Resolved,Dr. Patel,FALSE,14
+A1011,P1027,High Blood Pressure,Critical,2026-08-18 12:35,2026-08-18 12:42,2026-08-18 13:18,Resolved,Dr. Mehta,TRUE,7
+A1012,P1030,High Heart Rate,Medium,2026-08-18 13:10,2026-08-18 13:29,2026-08-18 14:01,Resolved,Dr. Patel,FALSE,19
+A1013,P1003,Abnormal Blood Pressure,Medium,2026-08-18 13:45,2026-08-18 14:02,2026-08-18 14:30,Resolved,Dr. Sharma,FALSE,17
+A1014,P1007,Low SpO2,High,2026-08-18 14:20,2026-08-18 14:31,,Open,Dr. Patel,FALSE,
+A1015,P1012,High Blood Pressure,Medium,2026-08-18 14:45,2026-08-18 15:01,,Open,Dr. Mehta,FALSE,
+A1016,P1015,High Heart Rate,High,2026-08-18 15:10,2026-08-18 15:22,,Open,Dr. Sharma,FALSE,
+A1017,P1019,Abnormal Temperature,Medium,2026-08-18 15:35,,,Open,,FALSE,
+A1018,P1022,High Blood Pressure,High,2026-08-18 16:05,,,Open,Dr. Mehta,TRUE,
+A1019,P1024,High Heart Rate,Medium,2026-08-18 16:30,2026-08-18 16:44,,Open,Dr. Patel,FALSE,
+A1020,P1028,Abnormal Blood Pressure,Medium,2026-08-18 17:00,,,Open,,FALSE,
