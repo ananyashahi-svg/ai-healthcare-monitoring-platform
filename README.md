@@ -479,5 +479,86 @@ Clinical thresholds, risk models, workflows, integrations, and AI outputs would 
 ## 📬 Project
 
 **CarePulse AI — AI-Powered Healthcare Monitoring & Risk Detection Platform**
+---
+
+## 📚 Product Documentation
+
+### Product Strategy & Requirements
+
+| Document                                         | Description                                                                |
+| ------------------------------------------------ | -------------------------------------------------------------------------- |
+| [Product Overview](docs/Product_Overview.md)     | Product vision, problem statement, users, and value proposition            |
+| [PRD](docs/PRD.md)                               | Product requirements, scope, functional requirements, and success criteria |
+| [BRD](docs/BRD.md)                               | Business requirements, objectives, stakeholders, and business needs        |
+| [User Stories](docs/User_Stories.md)             | User stories and acceptance criteria for key workflows                     |
+| [User Journey](docs/User_Journey.md)             | End-to-end patient and clinical workflow                                   |
+| [MVP Prioritization](docs/MVP_Prioritization.md) | MVP feature prioritization and product trade-offs                          |
+| [Product Roadmap](docs/Product_Roadmap.md)       | Product evolution and future roadmap                                       |
+
+### Product & Technical Design
+
+| Document                                             | Description                                                                         |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [Product Architecture](docs/Product_Architecture.md) | End-to-end product architecture, data flow, integrations, security, and scalability |
+
+### Analytics & Data
+
+| Document                                            | Description                                                                        |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [Product Metrics](analytics/Product_Metrics.md)     | North Star Metric, product KPIs, clinical metrics, AI metrics, and success targets |
+| [KPI Definitions](analytics/KPI_Definitions.md)     | Detailed KPI definitions and measurement logic                                     |
+| [Analysis Findings](analytics/Analysis_Findings.md) | Data analysis findings and product insights                                        |
+| [SQL Queries](analytics/SQL_Queries.sql)            | SQL queries used for healthcare monitoring analytics                               |
+
+---
+
+## 🧩 Key Product Capabilities
+
+* 👩‍⚕️ Patient monitoring dashboard
+* 🚨 Risk-based clinical alerts
+* 📊 Patient risk distribution
+* 🧠 AI-assisted risk insights
+* 🔄 Alert acknowledgement and resolution workflows
+* 📈 Operational and product analytics
+* 🔐 Role-based access and auditability
+* 🔗 Healthcare data integration architecture
+
+---
+
+## 🎯 Product Management Approach
+
+The product was designed using a structured Product Management and Business Analysis approach:
+
+**Problem Discovery → Requirements → User Stories → MVP Prioritization → Product Design → Architecture → Analytics → Roadmap**
+
+The project demonstrates experience across:
+
+* Product discovery
+* Business requirements analysis
+* Product requirements
+* User story development
+* Acceptance criteria
+* Process mapping
+* MVP prioritization
+* Product roadmap planning
+* Healthcare workflows
+* Data analysis
+* SQL
+* Product metrics
+* AI-assisted product design
+* Stakeholder-oriented decision making
+
+---
+
+## ⚠️ Portfolio Disclaimer
+
+This project is a portfolio MVP created for demonstration purposes.
+
+All patient information and clinical measurements are synthetic. Risk thresholds, AI capabilities, and clinical workflows are illustrative and would require appropriate clinical validation, privacy/security controls, and regulatory assessment before production use.
+
+---
+
+**CarePulse AI • AI-Assisted Healthcare Monitoring Platform**
+
 
 Built as a Product Management + Business Analysis portfolio project demonstrating end-to-end product thinking across healthcare, analytics, AI, requirements, and product delivery.
