@@ -131,6 +131,11 @@ Need secure role-based access and auditable user activity.
 ## 📊 MVP Dashboard
 
 The live dashboard provides an operational view of the monitoring platform.
+### 📸 Dashboard Preview
+
+![CarePulse AI Dashboard](carepulse-dashboard.png)
+
+👉 **[View Live Dashboard](https://ananyashahi-svg.github.io/ai-healthcare-monitoring-platform/)**
 
 ### Example KPIs
 
