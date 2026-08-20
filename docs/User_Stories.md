@@ -486,6 +486,7 @@ The summary should:
 | US-16 Explain Risk Factors | Should Have | Phase 2 |
 | US-17 AI Patient Summary | Could Have | Phase 2 |
 
+
 # 10. Definition of Done
 
 A user story is considered complete when:
@@ -520,7 +521,6 @@ This ensures that business needs remain connected to the delivered product funct
 | Analytics | US-13, US-14 | Healthcare Administrator / Care Manager | MVP / Phase 2 |
 | Security | US-15 | System Administrator | MVP |
 | AI Insights | US-16, US-17 | Clinician | Phase 2 |
-
 ---
 
 # 13. Key Edge Cases
