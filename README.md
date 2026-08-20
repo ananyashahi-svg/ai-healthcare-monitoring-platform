@@ -237,6 +237,8 @@ Key principles:
 
 ## 📁 Repository Structure
 
+## 📁 Repository Structure
+
 ```text
 ai-healthcare-monitoring-platform/
 │
@@ -252,6 +254,8 @@ ai-healthcare-monitoring-platform/
 │   ├── BRD.md
 │   ├── PRD.md
 │   ├── Product_Overview.md
+│   ├── MVP_Prioritization.md
+│   ├── Product_Roadmap.md
 │   ├── User_Journey.md
 │   └── User_Stories.md
 │
