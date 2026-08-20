@@ -1,241 +1,105 @@
-# AI Healthcare Monitoring Platform
+# CarePulse AI 🏥
 
-## CarePulse AI
+## AI-Powered Healthcare Monitoring & Risk Detection Platform
 
-A product management and business analysis portfolio project demonstrating how AI, healthcare data, analytics, and workflow automation can be used to support remote patient monitoring and clinical operations.
+CarePulse AI is a portfolio healthcare product designed to help clinical and care-management teams monitor patients, identify elevated-risk patients, manage clinical alerts, and track operational performance through analytics.
 
-> **Portfolio Project | Synthetic Data | Product Management + Business Analysis**
-
----
-
-## 🚀 Project Overview
-
-CarePulse AI is a conceptual AI-enabled healthcare monitoring platform designed to help healthcare teams monitor patients, identify potential risks, prioritize alerts, and improve clinical workflow visibility.
-
-The platform connects:
-
-**Patient Monitoring → Data → Risk Analysis → Alerts → Clinical Review → Intervention → Analytics**
-
-The project demonstrates the complete product lifecycle from problem discovery and requirements definition through data analysis, product metrics, and AI-assisted product opportunities.
+> **Portfolio Project:** Uses synthetic patient and clinical monitoring data. Clinical thresholds and business rules are illustrative and would require validation by qualified clinical stakeholders before production use.
 
 ---
 
-## 🎯 Problem Statement
+## 🎯 Product Problem
 
-Healthcare teams managing remotely monitored patients can face challenges such as:
+Healthcare teams managing remote or continuous patient monitoring can face:
 
-- High volumes of patient monitoring data
+- Large volumes of patient monitoring data
 - Difficulty identifying high-risk patients quickly
-- Alert overload
-- Manual review of patient information
-- Uneven clinical workload
-- Limited visibility into operational KPIs
-- Time-consuming reporting
+- Alert overload and inconsistent prioritization
+- Limited visibility into alert response and resolution
+- Manual operational reporting
+- Fragmented clinical and operational insights
 
-The product aims to improve visibility, prioritization, and operational efficiency while keeping clinicians responsible for clinical decision-making.
-
----
-
-## 👥 Target Users
-
-### Primary Users
-
-- Clinicians
-- Care Managers
-- Healthcare Administrators
-
-### Secondary Users
-
-- Product Managers
-- Operations Teams
-- System Administrators
+CarePulse AI addresses these challenges through a centralized monitoring, risk detection, alert management, and analytics experience.
 
 ---
 
-## 💡 Product Vision
+## 💡 Product Solution
 
-> Enable healthcare teams to identify patient risk earlier, prioritize clinical workflows effectively, and make better-informed decisions using data and responsible AI.
+CarePulse AI provides a unified platform for:
+
+- Patient monitoring
+- Vital-sign visualization
+- Patient risk scoring
+- High-risk patient identification
+- Clinical alert generation
+- Alert prioritization and escalation
+- Operational KPI tracking
+- AI-assisted clinical insights
 
 ---
 
-## 🏗️ Product Capabilities
+## 👥 Primary Users
 
-### Patient Management
+| Persona | Primary Needs |
+|---|---|
+| Clinician | Monitor patients, review risk, manage alerts |
+| Care Manager | Manage patient workflows and alert assignments |
+| Healthcare Administrator | Monitor operational KPIs and trends |
+| System Administrator | Manage access and permissions |
 
-- Patient enrollment
-- Patient profiles
-- Monitoring status
-- Risk classification
+---
 
-### Remote Monitoring
+## 🚀 Key Features
 
-- Vital-sign collection
-- Historical trends
-- Data validation
-- Monitoring visibility
+### Patient Monitoring
+- Patient profile management
+- Vital-sign monitoring
+- Historical patient trends
+- Abnormal measurement identification
 
 ### Risk Detection
-
-- Risk scoring
-- Risk classification
+- Patient risk scoring
+- Risk categorization
 - High-risk patient identification
-- Risk-factor visibility
+- Risk-contributing factors
 
 ### Alert Management
-
-- Alert generation
+- Automated alert generation
 - Alert prioritization
-- Alert assignment
 - Alert acknowledgement
+- Alert assignment
 - Alert escalation
 - Alert resolution
 
 ### Analytics
+- Total monitored patients
+- High-risk patient count
+- Open and critical alerts
+- Alert resolution rate
+- Escalation rate
+- Alert trends
 
-- Operational KPI dashboard
-- Alert analytics
-- Clinician workload analysis
-- Response-time monitoring
-- Risk distribution
-
-### AI Opportunities
-
+### AI-Assisted Insights
+- Risk-factor explanations
 - AI-assisted patient summaries
-- Explainable risk insights
-- Intelligent alert prioritization
-- Trend detection
+- Future predictive-risk capabilities
 
 ---
 
-## 📊 Analytics
+## 📊 Live Dashboard
 
-The project includes synthetic healthcare datasets for demonstrating product analytics and SQL skills.
+**[Open the CarePulse AI Dashboard](https://ananyashahi-svg.github.io/ai-healthcare-monitoring-platform/dashboard/)**
 
-### Datasets
+Current synthetic dashboard metrics include:
 
-- Patient demographics and risk scores
-- Patient vital signs
-- Clinical alerts
-
-### Analytics Questions
-
-The analysis explores questions such as:
-
-- Which patients are high risk?
-- What is the distribution of patient risk?
-- Which alerts occur most frequently?
-- How quickly are alerts acknowledged?
-- What is the alert resolution rate?
-- What is the escalation rate?
-- How are alerts distributed across clinicians?
-- Where are potential workflow bottlenecks?
+| KPI | Value |
+|---|---:|
+| Total Monitored Patients | 100 |
+| High-Risk Patients | 18 |
+| Open Alerts | 12 |
+| Alert Resolution Rate | 87% |
 
 ---
-
-## 📈 Key Product KPIs
-
-| KPI | Purpose |
-|---|---|
-| Timely Clinical Review Rate | Measures timely review of high-risk alerts |
-| Average Alert Response Time | Measures clinical response speed |
-| Alert Resolution Rate | Measures workflow completion |
-| Alert Escalation Rate | Measures escalation frequency |
-| Open Alert Count | Measures unresolved workload |
-| High-Risk Patient % | Measures patient risk distribution |
-| Alerts per Clinician | Measures workload distribution |
-| Clinician Adoption | Measures product adoption |
-| Monitoring Coverage | Measures program reach |
-
----
-
-## 🧩 Product Artifacts
-
-### Product Management
-
-- Product Overview
-- Product Requirements Document
-- User Stories
-- Acceptance Criteria
-- Product KPIs
-- Product Analytics
-
-### Business Analysis
-
-- Business Requirements Document
-- User Journey
-- Process Analysis
-- Requirements Traceability
-- Acceptance Criteria
-
-### Data & Analytics
-
-- SQL Queries
-- Synthetic Healthcare Dataset
-- Patient Vital Data
-- Clinical Alert Data
-- Analytics Findings
-- KPI Definitions
-
----
-
-## 🤖 Responsible AI Approach
-
-AI is positioned as a decision-support capability rather than an autonomous clinical decision-maker.
-
-Key principles:
-
-- Human-in-the-loop decision-making
-- Explainable AI insights
-- Clear distinction between observations and AI-generated insights
-- Clinician accountability
-- Data privacy and security
-- Monitoring for model performance
-- Avoiding unsupported clinical claims
-
----
-
-## 🛠️ Skills Demonstrated
-
-### Product Management
-
-- Product discovery
-- Product strategy
-- MVP definition
-- Roadmap thinking
-- Feature prioritization
-- Product metrics
-- Experimentation
-
-### Business Analysis
-
-- Requirements gathering
-- BRD / PRD
-- User stories
-- Acceptance criteria
-- Process mapping
-- Stakeholder management
-- UAT thinking
-
-### Data & Analytics
-
-- SQL
-- KPI definition
-- Data analysis
-- Healthcare analytics
-- Product insights
-- Data-driven decision making
-
-### Agile
-
-- Agile/Scrum
-- Backlog prioritization
-- User stories
-- Acceptance criteria
-- Definition of Done
-
----
-
-## 📁 Repository Structure
 
 ## 📁 Repository Structure
 
@@ -249,6 +113,9 @@ ai-healthcare-monitoring-platform/
 │   ├── alerts.csv
 │   ├── patient_vitals.csv
 │   └── sample_patient_data.csv
+│
+├── dashboard/
+│   └── index.html
 │
 ├── docs/
 │   ├── BRD.md
