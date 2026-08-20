@@ -233,9 +233,12 @@ Key activities demonstrated:
 
 ### Product & Technical Design
 
-| Document                                             | Description                                                                 |
-| ---------------------------------------------------- | --------------------------------------------------------------------------- |
-| [Product Architecture](docs/Product_Architecture.md) | End-to-end architecture, data flow, integrations, security, and scalability |
+| Document | Description |
+|---|---|
+| [Product Architecture](docs/Product_Architecture.md) | End-to-end product architecture, data flow, integrations, security, and scalability |
+| [Technical Architecture](docs/Technical_Architecture.md) | Technical architecture, system components, integrations, APIs, and data flow |
+| [AI Product Strategy](docs/AI_Product_Strategy.md) | AI use cases, human-in-the-loop strategy, AI evaluation, safety, and responsible AI |
+| [Risk Management](docs/Risk_Management.md) | Healthcare, AI, data, security, integration, and operational risk framework |
 
 ### Analytics & Data
 
