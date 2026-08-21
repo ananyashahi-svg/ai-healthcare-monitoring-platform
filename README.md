@@ -25,9 +25,7 @@ The interactive dashboard provides a healthcare operations view of:
 ---
 
 ## 📸 Dashboard Preview
-
-<img src="./careplus-dashboard.png" alt="CarePulse AI Dashboard" width="100%">
-
+![CarePulse AI Dashboard](carepulse-dashboard.png)
 ---
 
 ## 🎯 Problem Statement
