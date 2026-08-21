@@ -242,12 +242,12 @@ Key activities demonstrated:
 
 ### Analytics & Data
 
-| Document                                            | Description                                                                        |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [Product Metrics](analytics/Product_Metrics.md)     | North Star Metric, product KPIs, clinical metrics, AI metrics, and success targets |
-| [KPI Definitions](analytics/KPI_Definitions.md)     | KPI definitions and measurement logic                                              |
-| [Analysis Findings](analytics/Analysis_Findings.md) | Data analysis findings and product insights                                        |
-| [SQL Queries](analytics/SQL_Queries.sql)            | SQL queries used for healthcare monitoring analytics                               |
+| Document | Description |
+|---|---|
+| [Product Metrics](analytics/Product_Metrics.md) | North Star Metric, product KPIs, clinical metrics, AI metrics, and success targets |
+| [KPI Definitions](analytics/KPI_Definitions.md) | KPI definitions, formulas, measurement logic, and interpretation |
+| [Analysis Findings](analytics/Analysis_Findings.md) | Data analysis findings, patterns, and product insights |
+| [SQL Queries](analytics/SQL_Queries.sql) | SQL queries used for healthcare monitoring analytics |
 
 ---
 
